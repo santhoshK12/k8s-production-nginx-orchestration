@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: nginx-config
+data:
+  index.html: |
+    <html>
+    <h1>Hello! This is my Custom Kubernetes Page!</h1>
+    <p>I am learning ConfigMaps now.</p>
+    </html>
